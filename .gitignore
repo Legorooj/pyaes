@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.pyd
 
 # Distribution / packaging
 .Python
@@ -130,3 +131,6 @@ dmypy.json
 
 # PyCharm config
 .idea/
+
+# Cython generated C files
+*.c
